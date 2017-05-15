@@ -144,10 +144,7 @@
   <ItemGroup>
     <ClInclude Include="DynamicArray.h" />
     <ClInclude Include="LinkedLists.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="DynamicArray.cpp" />
-    <ClCompile Include="LinkedLists.cpp" />
+    <ClInclude Include="ListNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
