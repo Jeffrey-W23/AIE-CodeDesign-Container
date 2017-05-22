@@ -45,8 +45,6 @@ public:
 
 	void PushFront(T value)
 	{
-
-
 		Insert(0, value);
 	}
 
