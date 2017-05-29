@@ -88,6 +88,12 @@ public:
 		}
 	}
 
+	// Pop back
+
+	// Pop Front
+
+	//clear
+	
 	//erase: remove based on an index passed in
 
 	//remove: remove all elements that have data which matches the value passed in

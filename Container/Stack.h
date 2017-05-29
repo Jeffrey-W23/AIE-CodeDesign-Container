@@ -4,6 +4,7 @@
 template <typename T>
 class Stack
 {
+public:
 	Stack(int initialSize = 0)
 	{
 		m_pData = new DynamicArray<T>(initialSize);
