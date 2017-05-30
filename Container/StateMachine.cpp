@@ -20,7 +20,7 @@ void StateMachine::Update(float deltaTime)
 	if (m_StateList.Size() <= 0)
 		return;
 
-	m_StateList[m_nCurrentState]->OnUpdate(deltaTime);
+	m_StateList[m_nCurrentState]->onUpdate(deltaTime);
 }
 
 
@@ -29,7 +29,7 @@ void StateMachine::Draw(Renderer2D* m_2dRenderer)
 	if (m_StateList.Size() <= 0)
 		return;
 
-	m_StateList[m_nCurrentState]->OnDraw(m_2dRenderer);
+	m_StateList[m_nCurrentState]->onDraw(m_2dRenderer);
 }
 
 void StateMachine::SetState(int nStateIndex)
@@ -42,7 +42,7 @@ void StateMachine::SetState(int nStateIndex)
 		m_StateList[m_nCurrentState]->onExit;
 
 	m_nCurrentState = nStateIndex;
-	m_nCurrentState[m_nCurrentState]->OnEnter;
+	m_nCurrentState[m_nCurrentState]->onEnter;
 }
 
 void StateMachine::AddState(int nStateIndex, State* pState)

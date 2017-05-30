@@ -1,5 +1,7 @@
+// #include, using, etc
 #pragma once
 #include <memory.h>
+
 
 template<typename T>
 class DynamicArray

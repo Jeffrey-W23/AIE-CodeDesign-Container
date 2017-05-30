@@ -1,6 +1,6 @@
 #pragma once
-#include "Renderer2D.h"
-using namespace aie;
+//#include "Renderer2D.h"
+//using namespace aie;
 
 class State
 {
