@@ -142,25 +142,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AssociativeArray.h" />
     <ClInclude Include="DynamicArray.h" />
-    <ClInclude Include="Entity.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GraphNode.h" />
     <ClInclude Include="LinkedLists.h" />
     <ClInclude Include="ListNode.h" />
-    <ClInclude Include="ObjectPool.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="ResourceManager.h" />
     <ClInclude Include="Stack.h" />
-    <ClInclude Include="State.h" />
-    <ClInclude Include="StateMachine.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="ObjectPool.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="State.cpp" />
-    <ClCompile Include="StateMachine.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
